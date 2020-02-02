@@ -1,0 +1,31 @@
+.root {
+  min-width: 320px;
+  padding: 10px 20px;
+  background-color: grey;
+  color: white;
+
+  .basic {
+    background-color: rgb(224, 224, 224);
+    color: rgba(65, 65, 65, 0.082);
+  }
+
+  .default {
+    background-color: rgba(65, 65, 65, 0.082);
+    color: rgb(224, 224, 224);
+  }
+
+  .negative {
+    background-color: rgb(209, 82, 82);
+    color: rgb(224, 224, 224);
+  }
+
+  .primary {
+    background-color: rgb(82, 209, 150);
+    color: rgb(224, 224, 224);
+  }
+
+  .positive {
+    background-color: rgb(82, 184, 209);
+    color: rgb(224, 224, 224);
+  }
+}
